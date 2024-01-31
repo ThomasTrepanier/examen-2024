@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v10/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "tic-tac-toe",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "noClear": true,
+  "sessions": {
+    "default": [
+      {
+        "name": "terminal",
+        "commands": [
+          ""
+        ]
+      }
+    ],
+    "tic-tac-toe": [
+      [
+        {
+          "name": "client",
+          "commands": [
+            "npm start"
+          ],
+          "color": "terminal.ansiYellow",
+          "icon": "code",
+          "cwd": "C:\\Users\\m_bla\\Desktop\\Github\\react-tutorial\\packages\\client"
+        },
+        {
+          "name": "web-app",
+          "commands": [
+            ""
+          ],
+          "color": "terminal.ansiYellow",
+          "icon": "beaker",
+          "cwd": "C:\\Users\\m_bla\\Desktop\\Github\\react-tutorial\\packages\\client"
+        }
+      ],
+      {
+        "name": "server",
+        "commands": [
+          ""
+        ],
+        "color": "terminal.ansiBlue",
+        "icon": "cloud",
+        "cwd": "C:\\Users\\m_bla\\Desktop\\Github\\react-tutorial\\packages\\server"
+      }
+    ]
+  }
+}
